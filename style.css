@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 180px;
+    border-radius: 30%;
+    border: 5px solid rgb(75, 96, 218);
+
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(75, 96, 218);
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    margin: 20px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+.menu {
+    
+}
+
+nav li {
+    
+}
+
+nav a:hover {
+    color: rgb(75, 96, 218);
+}
