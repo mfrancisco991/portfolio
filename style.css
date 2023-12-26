@@ -54,13 +54,10 @@ footer a {
 }
 
 .menu {
-    
-}
-
-nav li {
-    
+    background-color: rgb(75, 96, 218);
+    border-radius: 3px;
 }
 
 nav a:hover {
-    color: rgb(75, 96, 218);
+    color: rgb(0, 0, 0);
 }
