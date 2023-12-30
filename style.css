@@ -1,75 +1,79 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px;                            /* Defini que toda margin do site é 0*/
+    padding: 0px;                           /* Defini que todo padding do site é 0*/
 }
 
 body {
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;              /* Defini a cor do corpo do site*/
+    color: white;                         /* Cor das letras dentro do corpo do site*/
+    font-family: Arial, Helvetica, sans-serif; /* Fonte do site*/
 }
 
 a {
-    color: white;
-    text-decoration: none;
+    color: white;                         /* Defini cor dos links*/
+    text-decoration: none;                  /* tira a decoração dos links*/
 }
 
 .center {
-    text-align: center;
+    text-align: center;                     /* Centraliza imagem e título*/
 }
 
 .center > img {
-    width: 150px;
+    width: 150px;                           /* Altura e largura da imagem*/
     height: 180px;
-    border-radius: 30%;
-    border: 5px solid rgb(75, 96, 218);
+    border-radius: 30%;                     /* Cria uma borda na imagem */
+    border: 5px solid rgb(75, 96, 218);   /* Cria uma borda colorida em volta da imagem*/
 }
 
 h1 {
-    color: rgb(75, 96, 218);
-    margin-bottom: 15px;
+    color: rgb(75, 96, 218);              /* Cor da letra do título */
+    margin-bottom: 15px;                    /* Margim de baixo do título, distancia do texto de baixo*/
 }
 
 h2, h3, p {
-    margin-bottom: 10px;
+    margin-bottom: 10px;                    /* Defini margem de baixo pra h2, h3 e paragrafos*/
 }
 
-footer img {
+footer img {                                /* Tamanho da imagem do rodapé (altura e largura)*/
     width: 40px;
     height: 40px;
 }
 
 footer {
-    display:flex;
-    justify-content: center;
-    text-align: center;
+    display:flex;                           /* serve para dispor os elementos dentro de um determinado container em linhas ou colunas*/ 
+    justify-content: center;                /* define como o navegador distribui o espaço entre e ao redor dos itens*/
+    text-align: center;                     /* Alinha o texto no centro*/
 }
 
 footer a {
-    margin: 20px;
+    margin: 20px;                           /* Distancia dos links e fotos*/
 }
 
 .container {
-    padding: 0px 50px;
+    padding: 0px 50px;                      /* Preenchimento do corpo do corpo do site*/
 }
 
 .menu {
-    background-color: rgb(75, 96, 218);
-    border-radius: 3px;
-    margin-bottom: 10px;
-    padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    background-color: rgb(75, 96, 218);   /* Cor de fundo do menu*/
+    border-radius: 0px 0px 3px 3px;         /* Bordas do menu*/
+    margin-bottom: 10px;                    /* Distancia entre o menu e a imagem*/
+    padding: 15px;                          /* Preenchimento do Menu */
+    font-family: Arial, Helvetica, sans-serif; /* Fonte dentro do Menu*/
+    font-size: 16px;                        /* Tamanho da fonte do Menu*/
 }
 
 .menu > a {
-    margin-right: 20px;
-    text-shadow: rgba(0, 0, 0, 0.466) 1px 1px;
+    margin-right: 20px;                     /* Distancia entre os links do menu*/
+    text-shadow: rgba(0, 0, 0, 0.466) 1px 1px; /* Sombra das letras do menu */
+    padding: 12px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
 }
 
 nav a:hover {
-    color: rgb(0, 0, 0);
-    margin-right: 10px;
+    color: rgb(0, 0, 0);                  /* Açao quando passa o mouse em cima das letras do menu*/
+    background-color: rgb(107, 128, 248);
+    text-shadow: rgb(255, 255, 255);
 }
